@@ -17,12 +17,12 @@
 // rendering options
 #define SHOW_LIGHTS 1
 #define SHOW_PLANTS 1
-#define SHOW_CLOUDS 1
+#define SHOW_CLOUDS 0
 #define SHOW_TREES 1
 #define SHOW_ITEM 1
 #define SHOW_CROSSHAIRS 1
 #define SHOW_WIREFRAME 1
-#define SHOW_INFO_TEXT 1
+#define SHOW_INFO_TEXT 0
 #define SHOW_CHAT_TEXT 1
 #define SHOW_PLAYER_NAMES 1
 
@@ -44,10 +44,10 @@
 #define CRAFT_KEY_SIGN '`'
 
 // advanced parameters
-#define CREATE_CHUNK_RADIUS 10
-#define RENDER_CHUNK_RADIUS 10
-#define RENDER_SIGN_RADIUS 4
-#define DELETE_CHUNK_RADIUS 14
+#define CREATE_CHUNK_RADIUS 8
+#define RENDER_CHUNK_RADIUS 6
+#define RENDER_SIGN_RADIUS 2
+#define DELETE_CHUNK_RADIUS 10
 #define CHUNK_SIZE 32
 #define COMMIT_INTERVAL 5
 
